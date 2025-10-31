@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DANIEL PHIRI| Neon Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+  <!-- Particle Background -->
+  <canvas id="particles"></canvas>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div id="terminal">
+      Initializing portfolio<span class="cursor"></span>
+    </div>
+  </div>
+
+  <header>
+    <div class="logo">DANIEL PHIRI</div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Hello, I'm Daniel Phiri</h1>
+      <p>Web Developer | Crafting digital experiences with code, creativity with precision.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <section id="about" class="section-card">
+      <h2>About Me</h2>
+      <p>I build elegant, high-performance web applications with a focus on clean architecture, user experience, and modern technologies. Passionate about open-source, automation, and pushing the boundaries of what's possible in the browser.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="project">
+        <h3>NeonTask</h3>
+        <p>A minimalist, offline-first task manager with real-time sync, dark mode, and PWA support. Built with React + IndexedDB.</p>
+      </div>
+      <div class="project">
+        <h3>WeatherLite</h3>
+        <p>Ultra-fast weather dashboard with animated forecasts, geolocation, and customizable themes. Powered by OpenWeather API.</p>
+      </div>
+      <div class="project">
+        <h3>CodePulse</h3>
+        <p>Real-time collaborative code editor with syntax highlighting, live preview, and version control integration.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section-card">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 El Chellahd. Built with <span style="color:var(--primary)">neon</span> & passion.</p>
+  </footer>#
+<script src="index.js"></script>
+</body>
+</html>
