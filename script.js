@@ -1,4 +1,4 @@
-/* ---------- PARTICLES (no mouse burst) ---------- */
+/* ---------- PARTICLES ---------- */
 const canvas = document.getElementById('particles');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
@@ -55,7 +55,7 @@ window.addEventListener('resize', () => {
 initParticles();
 animateParticles();
 
-/* ---------- LOADER (reliable) ---------- */
+/* ---------- LOADER ---------- */
 const loader = document.getElementById('loader');
 const main = document.querySelector('main');
 let dots = '';
